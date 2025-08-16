@@ -1,0 +1,12 @@
+#zone_intrusion_detector\requirements.txt
+pyqt5==5.15.9
+opencv-python==4.8.1.78
+ultralytics==8.0.196
+torch==2.0.1
+torchvision==0.15.2
+shapely==2.0.2
+numpy==1.24.3
+pyyaml==6.0.1
+imutils==0.5.4
+requests==2.31.0
+tqdm==4.66.1

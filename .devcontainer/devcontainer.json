@@ -1,0 +1,20 @@
+{
+    "name": "Zone Intrusion Detector Dev Env",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.analysis.typeCheckingMode": "basic",
+        "editor.formatOnSave": true
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "redhat.vscode-yaml",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker"
+    ],
+    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+    "remoteUser": "vscode"
+}

@@ -1,0 +1,16 @@
+app:
+  title: "Zone Intrusion Detector"
+  geometry: [1000, 800]
+  stylesheet: "background-color: #2c3e50; color: #ecf0f1;"
+
+zones:
+  default_color: "#3498db"
+  line_width: 2
+  vertex_radius: 8
+
+detection:
+  model: "models/yolov8n.pt"
+  classes: [0]  # 0=person, 2=car, etc.
+  confidence: 0.5
+  max_disappeared: 30  # Increased from 20
+  max_distance: 70     # Increased from 50
