@@ -3,6 +3,11 @@
 #### Overview
 A video analytics application that detects and logs object movements in user-defined zones. Using YOLOv8 for object detection and centroid tracking, the system provides real-time monitoring of entry/exit events in restricted areas.
 
+#### Demo Video
+
+[Watch Demo Video](https://youtu.be/axzhZ8I8cyQ)
+
+
 #### Key Features
 - Interactive zone drawing on video frames
 - Real-time object detection (people/vehicles)
